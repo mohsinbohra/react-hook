@@ -67,3 +67,20 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
+
+body .Navbar{
+  background:  #dddada;
+  padding: 15px;
+}
+body .Navbar a{
+  color: #666;
+    padding: 15px;
+    text-decoration: none;
+}
+body .Navbar a:hover{
+  color: #222;
+}
+body a.active_class{
+  color:blue;
+  border-bottom: 1px solid black;
+}
